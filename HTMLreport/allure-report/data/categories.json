@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'https://www....php?message=4' == 'https://www....dashboard.php'\n  - https://www.thetestingworld.com/testings/dashboard.php\n  ?                                           ^^^^^^^^\n  + https://www.thetestingworld.com/testings/index.php?message=4\n  ?                                          ++ ^^    ++++++++++",
+      "children" : [ {
+        "name" : "test_signup",
+        "uid" : "2dc2b8ce8e1b39f9",
+        "parentUid" : "8399433ee880746e80ab1d23bda808b9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598808024757,
+          "stop" : 1598808036123,
+          "duration" : 11366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8399433ee880746e80ab1d23bda808b9"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

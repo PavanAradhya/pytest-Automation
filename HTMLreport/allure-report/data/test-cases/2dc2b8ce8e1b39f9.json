@@ -1,0 +1,89 @@
+{
+  "uid" : "2dc2b8ce8e1b39f9",
+  "name" : "test_signup",
+  "fullName" : "TestCases.test_001#test_signup",
+  "historyId" : "a703961980f908faaf841674d52c3740",
+  "time" : {
+    "start" : 1598808024757,
+    "stop" : 1598808036123,
+    "duration" : 11366
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'https://www....php?message=4' == 'https://www....dashboard.php'\n  - https://www.thetestingworld.com/testings/dashboard.php\n  ?                                           ^^^^^^^^\n  + https://www.thetestingworld.com/testings/index.php?message=4\n  ?                                          ++ ^^    ++++++++++",
+  "statusTrace" : "start = None\n\n    def test_signup(start):\n        reg = Registration.register(driver)\n        reg.Login(\"Login\")\n        time.sleep(5)\n        reg.Username2(\"Username2\")\n        reg.Passward2(\"Passward2\")\n        reg.Login2(\"Login2\")\n        time.sleep(5)\n>       assert driver.current_url==\"https://www.thetestingworld.com/testings/dashboard.php\"\nE       AssertionError: assert 'https://www....php?message=4' == 'https://www....dashboard.php'\nE         - https://www.thetestingworld.com/testings/dashboard.php\nE         ?                                           ^^^^^^^^\nE         + https://www.thetestingworld.com/testings/index.php?message=4\nE         ?                                          ++ ^^    ++++++++++\n\nTestCases\\test_001.py:50: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start",
+    "time" : {
+      "start" : 1598808016917,
+      "stop" : 1598808024756,
+      "duration" : 7839
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "start::0",
+    "time" : {
+      "start" : 1598808036658,
+      "stop" : 1598808042107,
+      "duration" : 5449
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_001"
+  }, {
+    "name" : "host",
+    "value" : "W1851537"
+  }, {
+    "name" : "thread",
+    "value" : "31868-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_001"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2dc2b8ce8e1b39f9.json",
+  "parameterValues" : [ ]
+}

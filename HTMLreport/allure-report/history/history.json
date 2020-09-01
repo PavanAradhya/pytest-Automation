@@ -1,0 +1,136 @@
+{
+  "6f31ad532bdde8f398d212cd2cecbe06" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a33d2d444b03dc04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598808058859,
+        "stop" : 1598808075997,
+        "duration" : 17138
+      }
+    } ]
+  },
+  "2c91cc1363ad00e7abb5375ca0d9ad68" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6e7d10591bb2491f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598808105449,
+        "stop" : 1598808118829,
+        "duration" : 13380
+      }
+    } ]
+  },
+  "ec571ba040b8eba2b7332b95d576cb40" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "39e72105a5c4e98c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598808090754,
+        "stop" : 1598808105431,
+        "duration" : 14677
+      }
+    } ]
+  },
+  "b927e8c3e31bd66ea14540ba6cb14de7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7b6532f512aa6867",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598808076007,
+        "stop" : 1598808090743,
+        "duration" : 14736
+      }
+    } ]
+  },
+  "b29fe7e4fdf44b02246bb98732dbf3be" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d918e599f7982167",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598808042113,
+        "stop" : 1598808058850,
+        "duration" : 16737
+      }
+    } ]
+  },
+  "a703961980f908faaf841674d52c3740" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2dc2b8ce8e1b39f9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'https://www....php?message=4' == 'https://www....dashboard.php'\n  - https://www.thetestingworld.com/testings/dashboard.php\n  ?                                           ^^^^^^^^\n  + https://www.thetestingworld.com/testings/index.php?message=4\n  ?                                          ++ ^^    ++++++++++",
+      "time" : {
+        "start" : 1598808024757,
+        "stop" : 1598808036123,
+        "duration" : 11366
+      }
+    } ]
+  },
+  "c1057452f67808338147cfbcabb47702" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ae8385f660149df9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598807986734,
+        "stop" : 1598808016760,
+        "duration" : 30026
+      }
+    } ]
+  }
+}
